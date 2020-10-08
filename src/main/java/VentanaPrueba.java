@@ -7,9 +7,7 @@ import javax.swing.*;
 public class VentanaPrueba {
     
     public static void main(String[] args) {
-        JFrame jf = new JFrame("Mi Ventana");
-        jf..setSize(300,400);
-        jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        jf.setVisible(true);
+        MiVentana v = new MiVentana();
+        v.setVisible(true);
     }    
 }
